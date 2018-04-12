@@ -1,0 +1,22 @@
+.navbar{
+    background-color: #E0E0E0;
+    border-color: #000;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+ .navbar-default .navbar-nav > .active{
+    color: #000;
+    background: #C0C0C0;
+ }
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background: #C0C0C0;
+ }
+.linkbc{
+    padding-left: 20px;
+}
+.maincontent{
+    padding-left: 20px;
+}

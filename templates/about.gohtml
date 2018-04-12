@@ -1,0 +1,8 @@
+{{template "header" .Title}}
+<h1>this is the about page</h1>
+<a href="/">home</a><br><br>
+{{range .Members}}
+{{.}}<br>
+{{end}}
+<img src="/img/Carina.jpg">
+{{template "footer"}}
